@@ -4,6 +4,7 @@ Primer laboratorio de la asignatura de Robótica de la Universidad Nacional de C
 <p align="center">
 <img marigin="auto" src="https://github.com/mora200217/labrob-1/blob/master/assets/funcional.gif" width="60%"/> 
 </p>
+
 **Integrantes**: 
 * Nelson ramirez
 * Andrés Zuleta 
