@@ -12,6 +12,8 @@ Se requiere usar el sistema robotizado del manipulador de *ABB IRB 140* para pod
 ## Diseño 
 La herramienta tiene como objetivo el servir como soporte para un marcador de tablero, para que el manipulador pueda escribir. Debido a que nuestra prioridad era la estabilidad del marcador durante el proceso de escritura, se optó por una ensamble de dos piezas. 
 
+<img marigin="auto" src="https://github.com/mora200217/labrob-1/blob/master/assets/resultado.jpeg" width="20%"/> 
+
 ### Base del Ensamble
 La base, consistente con las dimensiones de la hoja de datos suminsitrado por ABB, fue diseñada con dos particularidades: 
 
