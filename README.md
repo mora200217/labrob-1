@@ -42,7 +42,14 @@ Se optó por esta pieza para encerrar el marcador y garantizar un mejor acople. 
 
 
 ## Código en RAPID 
-Desde RobotStudio, se construyó la trayectoria en 3 fases: Ubicar un punto Home, escribir una letra y subir a un punto "muerto" para reajustar posición y continuar con la siguiente letra. Se cargó el modelo 3D de la herramienta para tener un nuevo "Tool" en RobotStudio, para redefinir el TCP (la punta del marcador) para el proceso. 
+Desde RobotStudio, se construyó la trayectoria en 3 fases: Ubicar un punto Home, escribir una letra y subir a un punto "muerto" para reajustar posición y vontinuar con la siguiente letra. Se cargó el modelo 3D de la herramienta para tener un nuevo "Tool" en RobotStudio, para redefinir el TCP (la punta del marcador) para el proceso. 
+
+<p align="center">
+<img margin="auto" src="https://github.com/mora200217/labrob-1/blob/master/assets/robotstudio.jpeg" width="60%"/> 
+
+</p> 
+
+
 
 ## Ejecución
 Se exportaron las rutinas desde RobotStudio para tener el RAPID que cargar al controlador desde el FlexPendant. Se realizó una etapa de prueba, subiendo la coordenada vertical (z) del workobject utilizado, para hacer la revisión de cumplimiento de rutina. Finalmente, se ajusta iterativamente el eje vertical, buscando que workobject coincida con la superficie a escribir, y comenzar con el proceso de escritura de las 3 letras cargadas. 
