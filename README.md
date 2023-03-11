@@ -34,4 +34,4 @@ Se optó por esta pieza para encerrar el marcador y garantizar un mejor acople. 
 
 1. Es muy importante tener claro los marcos de referencia tanto de la herramienta como de los puntos que se crean para que sean concordantes los movimientos y trayectorias que se desean.
 2. El buen diseño CAD de una herramienta puede facilitar mucho todo el proceso de calibracion que se debe hacer en un manipulador industrial.
-3. Es muy inmportante tener un resorte en la herramienta para que cualquier proceso de escritura sea mas facil de implementar.
+3. Es muy importante tener un resorte en la herramienta para que cualquier proceso de escritura sea mas facil de implementar.
