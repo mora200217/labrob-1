@@ -16,9 +16,11 @@ Se requiere usar el sistema robotizado del manipulador de *ABB IRB 140* para pod
 ## Diseño 
 La herramienta tiene como objetivo el servir como soporte para un marcador de tablero, para que el manipulador pueda escribir. Debido a que nuestra prioridad era la estabilidad del marcador durante el proceso de escritura, se optó por una ensamble de dos piezas. 
 
-<p align="center>
-<img marigin="auto" src="https://github.com/mora200217/labrob-1/blob/master/design/sketch.jpeg" width="40%"/> 
+<p align="center">
+<img margin="auto" src="https://github.com/mora200217/labrob-1/blob/master/design/sketch.jpeg" width="60%"/> 
 </p> 
+
+
 ### Base del Ensamble
 La base, consistente con las dimensiones de la hoja de datos suminsitrado por ABB, fue diseñada con dos particularidades: 
 
@@ -28,9 +30,26 @@ La base, consistente con las dimensiones de la hoja de datos suminsitrado por AB
 ### Soporte Cilindrico
 Se optó por esta pieza para encerrar el marcador y garantizar un mejor acople. Tiene un cono interno para evitar desplazamiento radial externo del marcador, y en los laterlaes del soporte se agregaron tornillos para fijar aún más el marcador. 
 
-## Código en RAPID 
 
-El codigo usado se encuentra en las carpeta RAPID de este repositorio
+<p align="center">
+<img margin="auto" src="https://github.com/mora200217/labrob-1/blob/master/assets/sim-impresion.jpeg" width="20%"/> 
+<img margin="auto" src="https://github.com/mora200217/labrob-1/blob/master/assets/impresion.jpeg" width="20%"/> 
+<img margin="auto" src="https://github.com/mora200217/labrob-1/blob/master/assets/resultado.jpeg" width="20%"/> 
+
+</p> 
+
+
+
+
+## Código en RAPID 
+Desde RobotStudio, se construyó la trayectoria en 3 fases: Ubicar un punto Home, escribir una letra y subir a un punto "muerto" para reajustar posición y vontinuar con la siguiente letra. Se cargó el modelo 3D de la herramienta para tener un nuevo "Tool" en RobotStudio, para redefinir el TCP (la punta del marcador) para el proceso. 
+
+## Ejecución
+Se exportaron las rutinas desde RobotStudio para tener el RAPID que cargar al controlador desde el FlexPendant. Se realizó una etapa de prueba, subiendo la coordenada vertical (z) del workobject utilizado, para hacer la revisión de cumplimiento de rutina. Finalmente, se ajusta iterativamente el eje vertical, buscando que workobject coincida con la superficie a escribir, y comenzar con el proceso de escritura de las 3 letras cargadas. 
+
+**Trayectoria 1:** https://youtu.be/atYaf5iX8Yo
+
+**Trayectoria 2:** https://youtu.be/zLNep-NyKM0 
 
 ## Conclusiones 
 
