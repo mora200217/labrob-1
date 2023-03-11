@@ -1,5 +1,5 @@
 # Laboratorio #1 Robótica 
-Primer laboratorio de la asignatura de Robótica de la Universidad Nacional de Colombia 2023-i. En esta práctica se busca usar el manipulador para escribir la secuencia "TNF" en un tablero. Dsesd
+Primer laboratorio de la asignatura de Robótica de la Universidad Nacional de Colombia 2023-i. En esta práctica se busca usar el manipulador para escribir la secuencia "TNF" en un tablero.
 
 <p align="center">
 <img marigin="auto" src="https://github.com/mora200217/labrob-1/blob/master/assets/funcional.gif" width="60%"/> 
@@ -31,3 +31,7 @@ Se optó por esta pieza para encerrar el marcador y garantizar un mejor acople. 
 
 
 ## Conclusiones 
+
+1. Es muy importante tener claro los marcos de referencia tanto de la herramienta como de los puntos que se crean para que sean concordantes los movimientos y trayectorias que se desean.
+2. El buen diseño CAD de una herramienta puede facilitar mucho todo el proceso de calibracion que se debe hacer en un manipulador industrial.
+3. Es muy inmportante tener un resorte en la herramienta para que cualquier proceso de escritura sea mas facil de implementar.
