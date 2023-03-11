@@ -30,6 +30,7 @@ Se optó por esta pieza para encerrar el marcador y garantizar un mejor acople. 
 
 ## Código en RAPID 
 
+El codigo usado se encuentra en las carpeta RAPID de este repositorio
 
 ## Conclusiones 
 
