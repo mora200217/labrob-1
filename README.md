@@ -6,7 +6,7 @@ Primer laboratorio de la asignatura de Robótica de la Universidad Nacional de C
 </p>
 
 **Integrantes**: 
-* Nelson ramirez
+* Nelson David Ramírez Marín
 * Andrés Zuleta 
 * Andrés Morales Martínez 
 
