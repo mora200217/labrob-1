@@ -54,12 +54,12 @@ Desde RobotStudio, se construyó la trayectoria en 3 fases: Ubicar un punto Home
 ## Ejecución
 Se exportaron las rutinas desde RobotStudio para tener el RAPID que cargar al controlador desde el FlexPendant. Se realizó una etapa de prueba, subiendo la coordenada vertical (z) del workobject utilizado, para hacer la revisión de cumplimiento de rutina. Finalmente, se ajusta iterativamente el eje vertical, buscando que workobject coincida con la superficie a escribir, y comenzar con el proceso de escritura de las 3 letras cargadas. 
 
-**Trayectoria 1:** https://youtu.be/atYaf5iX8Yo
+**Video Trayectoria 1:** https://youtu.be/atYaf5iX8Yo
 
-**Trayectoria 2:** https://youtu.be/zLNep-NyKM0 
+**Video Trayectoria 2:** https://youtu.be/zLNep-NyKM0 
 
 ## Conclusiones 
 
 1. Es muy importante tener claro los marcos de referencia tanto de la herramienta como de los puntos que se crean para que sean concordantes los movimientos y trayectorias que se desean.
 2. El buen diseño CAD de una herramienta puede facilitar mucho todo el proceso de calibracion que se debe hacer en un manipulador industrial.
-3. Es muy importante tener un resorte en la herramienta para que cualquier proceso de escritura sea mas facil de implementar.
+3. Es muy importante tener un resorte en la herramienta para que cualquier proceso de escritura sea mas facil de desarrollar.
