@@ -30,6 +30,7 @@ La base, consistente con las dimensiones de la hoja de datos suminsitrado por AB
 ### Soporte Cilindrico
 Se optó por esta pieza para encerrar el marcador y garantizar un mejor acople. Tiene un cono interno para evitar desplazamiento radial externo del marcador, y en los laterlaes del soporte se agregaron tornillos para fijar aún más el marcador. 
 
+> Los planos se encuentran en la carpeta `/design`
 
 <p align="center">
 <img margin="auto" src="https://github.com/mora200217/labrob-1/blob/master/assets/sim-impresion.jpeg" width="20%"/> 
