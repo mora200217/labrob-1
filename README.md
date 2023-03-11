@@ -1,5 +1,5 @@
 # Laboratorio #1 Robótica 
-Primer laboratorio de la asignatura de Robótica de la Universidad Nacional de Colombia 2023-i. En esta práctica se busca usar el manipulador para escribir la secuencia "TQN" en un tablero. Dsesd
+Primer laboratorio de la asignatura de Robótica de la Universidad Nacional de Colombia 2023-i. En esta práctica se busca usar el manipulador para escribir la secuencia "TNF" en un tablero. Dsesd
 
 <p align="center">
 <img marigin="auto" src="https://github.com/mora200217/labrob-1/blob/master/assets/funcional.gif" width="60%"/> 
